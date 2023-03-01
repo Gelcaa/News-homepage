@@ -1,0 +1,155 @@
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+/* navbbar */
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: hsl(36, 100%, 99%);
+
+ }
+
+ li {
+     float: right;
+ }
+
+ li a {
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+/* hover */
+ li a :hover:not(.active) {
+     color: hsl(35, 77%, 62%);
+ }
+
+ 
+ .item2_text_h2:hover:not(.active) {
+     color: hsl(35, 77%, 62%);
+ }
+ .bold_lower_row:hover:not(.active){
+     color: hsl(35, 77%, 62%);
+ }
+.icon {
+    height: 35px;
+    float: left;
+ }
+
+ body{
+    font-family: 'Inter', sans-serif;
+    padding: 64px 250px;
+    background-color: hsl(36, 100%, 99%);
+    
+    
+ }
+ .categories{
+    padding-right: 0;
+ }
+
+ /* grid */
+ .grid-container {
+    margin-top: 40px;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 25px;
+     padding: 0px;
+    grid-template-rows: 250px 170px 105px;
+    }
+ 
+
+ .grid-container>div {
+     font-size: 12px;
+ }
+
+ .item1 {
+    grid-column: span 2;
+     background-size: 100% 100%;
+     background-position: center;
+     padding: 0px;
+ }
+
+ .item2 {
+     grid-row: span 2;
+     background-color: hsl(240, 100%, 5%);
+     color: hsl(36, 100%, 99%);
+     padding: 1.5rem;
+ }
+ .item2_text{
+    line-height: 1.3rem;
+ }
+ .item2_text_h1 {
+     font-size: 2rem;
+     margin-top: 0;
+     color: hsl(35, 77%, 62%);
+ }
+
+
+ .item3 >p{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0;
+ }
+
+.item4 > button{
+    display: block;
+    border: none;
+    color: white;
+    margin-top: 58px;
+    padding: 10px 30px;
+    background-color: hsl(5, 85%, 63%);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.item4 > p{
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+ .bold_lower_row {
+    display: inline;
+    position: relative;
+    BOTTOM: 60%;
+    font-weight: 700;
+    margin-left: -35px;
+ }
+
+ .lower_row1, .lower_row2, .lower_row3{
+    position: relative;
+    BOTTOM: 80%;
+    letter-spacing: .5px;
+    margin-left: 110px
+ }
+.lower_row1{
+    margin-left: 105px;
+}
+
+ .blocksImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+ }
+ .lower_h1{
+    display: inline-grid;
+    position: relative;
+    bottom: 83%;
+    color: hsl(236, 13%, 42%);
+    margin-left: 20px;
+ }
+
+.lower_img{
+    height: 100%;
+    display: inline;
+
+}
+
+
